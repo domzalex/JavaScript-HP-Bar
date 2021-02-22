@@ -11,6 +11,9 @@ body {
     justify-content: center;
 }
 
+
+/* ALL OF THE SIZES/COLORS CAN BE MODIFIED; IT SHOULD NOT AFFECT THE JS MATH */
+
 .hpBarOutline {
     width: 200px;
     height: 600px;
