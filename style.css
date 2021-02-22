@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hpBarOutline {
+    width: 200px;
+    height: 600px;
+    border: solid 10px white;
+    background-color: rgba(0,0,0,0);
+}
+.hpBar {
+    width: 200px;
+    height: calc(600px * 1); /* Defaults to a full 600px height bar */
+    transform: translateY(calc(600px * 0)); /* The HP bar defaults to depleting from the bottom, so we modify this in JS to make it appear to deplete from the top. */
+    background-color: yellow;
+}
+
+.damageButton {
+    width: 220px;
+    height: 100px;
+    border: solid 10px white;
+    background-color: black;
+    margin-top: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 26px;
+    color: yellow;
+}
+.damageButton:hover {
+    background-color: white;
+    color: black;
+}
+.damageButton:active {
+    color: red;
+}
